@@ -1,0 +1,82 @@
+.main.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-chi-siamo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.section-obiettivo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.section-tecnology-repo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+div#box {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #f1d18a;
+    background-color: #588d9c;
+    padding: 40px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img-logo.archimede {
+    padding: 50px;
+}
+
+.immagine-avatar {
+    padding: 70px;
+     padding-right: 70px;
+}
+
+.logo-react-div {
+    padding-bottom: 20px;
+}
+
+img#logo-react {
+    width: 350px;
+    height: 350px;
+}
+
+img#logo-gemini {
+    width: 350px;
+    height: auto;
+}
+
+.section-img{
+    padding: 70px;
+}
+
+img#img-logo\ archimede {
+    width: 400px;
+    height: auto;
+}
+
+img#immagine-avatar {
+    width: 400px;
+    height: auto;
+}
+

@@ -1,0 +1,189 @@
+
+#home {
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    height: 100%;
+    width: 100%;
+
+  }
+
+  #bottone{
+
+    display: flex;
+    align-items: center;
+    position:relative;
+    justify-content: center;
+
+  }
+
+ #text-overlay{
+
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #eeeeee;
+    background-color: rgba(0,0,0,0.8);
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: left; 
+    white-space: nowrap;
+    overflow: hidden;
+    animation: text-fade-in 8s forwards; 
+    margin: 0 auto;
+    opacity: 1;
+    
+
+  }
+
+  #scroll-container{
+
+    width: 100%;
+    height: 100vh; /* Altezza del contenitore dello scrolling */
+    overflow: hidden;
+    position: relative;
+    
+  }
+
+  #scroll-content > div{
+
+    width: 200%; /* Due immagini, quindi ciascuna occupa il 50% */
+    position: relative;
+    
+
+  }
+
+  #scroll-content {
+    display: flex;
+    width: 200%;
+    height: 100%;
+    animation: scroll 6s ease forwards;
+    scroll-snap-type: mandatory;
+    
+}
+
+#image-with-text img, #image img{
+  position: relative;
+  justify-content: left;
+  width: 47%; /* Stessa larghezza delle immagini */
+  height: 70%;
+  margin-top: 70px;
+  margin-left: 50px;
+  object-fit: cover;
+}
+
+.image-with-text img {
+  width: 100%; /* L'immagine occupa tutta la larghezza del contenitore */
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* La prima immagine è visibile */
+}
+50% {
+    transform: translateX(0); /* Mantiene la prima immagine visibile per 5 secondi */
+}
+100% {
+    transform: translateX(-50%); /* Scorre verso la seconda immagine */
+}
+}
+
+@keyframes text-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#bottone {
+  display: flex;
+  align-items:end;
+  justify-content: center;
+  display: inline-block;
+  text-align:start;
+  color: #f1d18a;
+  white-space: nowrap;
+  line-height: 1.2;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: #588d9c;
+  border-radius: 19px;
+  padding: 13px 50px;
+  border: 5px solid #f1d18a;
+  cursor:pointer; 
+
+ }
+ #bottone:hover {
+  background-color:  #487683;
+  border-color: #fad585 ;
+  color: #fcd279;
+ }
+ #bottone > strong {
+  font-size: 24px;
+ }
+
+ #descrizione{
+
+  position: absolute;
+  top: 15%;
+  left: calc(75% + 10px); /* Posiziona il testo a destra dell'immagine */
+  transform: translate(-50%, -50%);
+  color: #DFF6FF;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
+ }
+
+
+ #titolo{
+
+    font-size: 5.2vh;
+    font-weight: bold;
+    color: #f1d18a;
+    background-color: #588d9c; 
+    border: solid #f1d18a;
+    padding: 10px 20px; /* Spaziatura interna */
+    border-radius: 5px; /* Bordo arrotondato */
+    text-align: center;
+    justify-content: center;
+    justify-self: center;
+
+
+ }
+
+ #spiegazione{
+
+  position: absolute;
+  top: 42%;
+  left: calc(75% + 10px); /* Posiziona il testo a destra dell'immagine */
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  text-align: center;
+  left: calc(75% + 10px); /* Posiziona il testo a destra dell'immagine */
+  transform: translate(-50%, -50%);
+  color: #f8f0f0;
+  font-size: 2.5vh;
+  font-weight:bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #72aff0e8;
+  border-radius: 10%;
+  
+
+
+ }
+
+ #posizioneBottone{
+
+  position: absolute;
+  top: 70%;
+  left: calc(75% + 10px); /* Posiziona il testo a destra dell'immagine */
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+
+ }
+

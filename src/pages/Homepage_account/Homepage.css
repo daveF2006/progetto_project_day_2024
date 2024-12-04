@@ -1,0 +1,77 @@
+.btn-primary {
+    --bs-btn-color: #f1d18a;
+    --bs-btn-bg: #588d9c;
+    --bs-btn-border-color: #f1d18a;
+    --bs-btn-hover-color: #f1d18a;
+    --bs-btn-hover-bg: #36626a;
+    --bs-btn-hover-border-color: #f1d18a;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-font-size: 18px;
+    --bs-btn-font-weight: 500;
+}
+
+div#Homepage-account {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.center-space {
+    width: 700px;
+    padding: 30px;
+    border: 3px solid #f1d18a;
+    background-color: #4d6f7577;
+    border-radius: 3%;
+}
+
+.field{
+    padding-top: 20px;
+}
+
+.save-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+}
+
+h5 {
+    color: #f1d18a;
+}
+
+#alert1 {
+    background-color: #588d9c;
+    border: 3px solid #f1d18a;
+    text-align: center;
+}
+
+#alert2 {
+    background-color: #588d9c;
+    border: 3px solid #f1d18a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.alert-heading {
+    color: #f1d18a;
+    font-weight: bold;
+}
+
+.list {
+    flex-direction: column;
+}
+
+.prop {
+    color: #f1d18a;
+}
+#floatingInput:hover, #istituto:hover{
+    border: 1px solid #588d9c;
+}
+
+
+#istituto:hover, #classe:hover{
+    border: 1.5px solid #f1d18a;
+} 
