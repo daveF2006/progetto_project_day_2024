@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 .main-chat-bot {
     display: flex;
     flex-direction: row;
@@ -97,6 +98,7 @@ input {
     border-radius: 20px;
     margin-bottom: 10px;
     background-color: #36626a;
+    
 }
 
 #model {
@@ -194,3 +196,33 @@ p {
     align-items: center;
     background-color: #588d9c;
 }
+
+
+  
+  /* Effetto Typewriter */
+  .typewriter-text {
+    display: inline-block; /* Assicura che il testo venga trattato come un blocco inline */
+    white-space: nowrap; /* Impedisce che il testo vada a capo */
+    overflow: hidden; /* Nasconde il testo che non è ancora stato "digitato" */
+    border-right: 3px solid black; /* Simula il cursore della macchina da scrivere */
+    animation: typing 4s steps(40) 1s 1 normal both, blink 0.75s step-end infinite; /* Animazione del typing e blinking */
+  }
+
+  
+  /* Animazione di digitazione */
+  @keyframes typing {
+    from {
+      width: 0; /* Parte con larghezza zero */
+    }
+    to {
+      width: 100%; /* Si estende fino a raggiungere la larghezza del testo */
+    }
+  }
+  
+  /* Animazione del cursore che lampeggia */
+  @keyframes blink {
+    50% {
+      border-color: transparent; /* Nasconde il cursore al 50% */
+    }
+  }
+  

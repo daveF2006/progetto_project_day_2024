@@ -6,7 +6,7 @@
 }
 
 .footer-logo {
-    padding-right: 80px;
+    padding-right: 30px;
 }
 
 .container {
@@ -39,7 +39,7 @@
 
 .footer-links ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .footer-links ul li a {
@@ -49,7 +49,7 @@
 
 .footer-links ul li :hover{
     color:#cfa458;
-    text-decoration: underline;
+    font-weight: lighter;
 }
 
 .footer-social a {
@@ -62,21 +62,21 @@
 .footer-info p {
     justify-content:space-between;
     margin: 5px 0;
-    margin-left: 100px;
     color: #f1d18a;
+    margin-top: 13px;
 }
 
 .email{
 
     display: inline-block;
-            color: #ffffff;
-            background-color: #4e9ef3;
-            text-decoration: none;
-            font-size: 16px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s ease, transform 0.2s ease;
+    color: #ffffff;
+    background-color: #4e9ef3;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .email:hover{
@@ -100,4 +100,8 @@
 .copyright:hover{
     background-color: #65abf6;
     transform: scale(1.05);  
+}
+
+.footer-info2{
+    margin: 5px 0;
 }

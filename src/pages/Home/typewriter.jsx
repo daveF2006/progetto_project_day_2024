@@ -49,4 +49,6 @@ const Typewriter = ({ delay = 0 }) => {
   );
 };
 
+
+
 export default Typewriter;

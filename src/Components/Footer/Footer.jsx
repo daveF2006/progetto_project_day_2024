@@ -15,18 +15,23 @@ export const Footer = () => {
             <div className="footer-links">
                 <ul>
                     <li><Link to="/">Home</Link></li>
-                    <li> | </li>
+                    <li style={{color:'#65abf6'}}> | </li>
                     <li><Link to="/About_us">About</Link></li>
+
+                    
                 </ul>
             </div>
             
         </div>
         <div className="footer-info">
-            <p className='copyright'>© 2024 ITIS Archimede <br></br>
-            Indirizzo: Via Greggia, 52, 24047 Treviglio BG</p>
-            <p className='email'>Email: <a href="mailto:ferri.davide.stu@isarchimede.it" > ferri.davide.stu@isarchimede.it </a> <a href="mailto:barboni.luca.stu@isarchimede.it" > barboni.luca.stu@isarchimede.it </a> <a href="mailto:carlino.mattia.stu@isarchimede.it" > carlino.mattia.stu@isarchimede.it </a> 
-            </p>
-        </div>
+            <p className='copyright'>© 2024 <a href='https://www.isarchimede.edu.it/' target='_blank'>ITIS Archimede</a> 
+            Indirizzo: <a href='https://maps.app.goo.gl/YDJhgas5nDtKG2rs5' target='_blank'>Via Greggia, 52, 24047 Treviglio BG</a></p> <br></br>
+            </div>
+            
+            <div className="footer-info2">
+                <p className='email'>Email: <a href="mailto:ferri.davide.stu@isarchimede.it" > ferri.davide.stu@isarchimede.it </a> <a href="mailto:barboni.luca.stu@isarchimede.it" > barboni.luca.stu@isarchimede.it </a> <a href="mailto:carlino.mattia.stu@isarchimede.it" > carlino.mattia.stu@isarchimede.it </a> 
+                </p>
+            </div>
     </div>
 </footer>
 
